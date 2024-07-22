@@ -41,9 +41,9 @@ public class E02{
 		}
 	}
 	
-	//public static void main(String[] args){
-	//	int num = Integer.parseInt(args[0]);
-	//	StdOut.println(n_ebfM(num));
-	//	StdOut.println(n_ebfR(num));
-	//}
+	public static void main(String[] args){
+		int num = Integer.parseInt(args[0]);
+		StdOut.println(n_ebfM(num));
+		StdOut.println(n_ebfR(num));
+	}
 }
