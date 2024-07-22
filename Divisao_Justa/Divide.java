@@ -1,22 +1,3 @@
-/******************************************************************************
- *
- * MAC0121 ALGORITMOS E ESTRUTURAS DE DADOS I
- * Aluno: Nathália Yukimi Uchiyama Tsuno
- * Numero USP: 14600541
- * Tarefa: E03
- * Data: 07 de Novembro de 2023
- * 
- * Baseado em ... (breve e se aplicável)
- *
- * DECLARO QUE SOU O ÚNICO AUTOR E RESPONSÁVEL POR ESTE PROGRAMA.  TODAS AS 
- * PARTES DO PROGRAMA, EXCETO AS QUE SÃO BASEADAS EM MATERIAL FORNECIDO  
- * PELO PROFESSOR OU COPIADAS DO LIVRO OU DAS BIBLIOTECAS DE SEDGEWICK & WAYNE, 
- * FORAM DESENVOLVIDAS POR MIM.  DECLARO TAMBÉM QUE SOU RESPONSÁVEL POR TODAS 
- * AS CÓPIAS DESTE PROGRAMA E QUE NÃO DISTRIBUÍ NEM FACILITEI A DISTRIBUIÇÃO
- * DE CÓPIAS DESTA PROGRAMA.
- *
- ******************************************************************************/
-
 /*
  * $ java-introcs RandomInts 10 1000 121 | java-introcs DivideBrute .
  * 0: 34 27 167 169 922 (sum: 1319)
