@@ -1,0 +1,50 @@
+$ java-introcs Generate 1000000 2023 | java-introcs FindGene - 
+15512
+$ java-introcs Generate 2000000 2023 | java-introcs FindGene - 
+31063
+$ java-introcs Generate 4000000 2023 | java-introcs FindGene - 
+62172
+$ java-introcs Generate 8000000 2023 | java-introcs FindGene - 
+124635
+$ java-introcs Generate 16000000 2023 | java-introcs FindGene - 
+249339
+$ java-introcs Generate 1000000 2023 | java-introcs FindGene | sort | md5
+d0dd74cdffd88d444163430e8e9437b4
+$ java-introcs Generate 2000000 2023 | java-introcs FindGene | sort | md5
+592717e4197e35a2e3abf9dbc9aa81e8
+$ java-introcs Generate 4000000 2023 | java-introcs FindGene | sort | md5
+144c6db82442820e29fc3206b0bcf7dd
+$ java-introcs Generate 8000000 2023 | java-introcs FindGene | sort | md5
+a0d258d34905f703d4570a54efbaef23
+$ java-introcs Generate 16000000 2023 | java-introcs FindGene | sort | md5
+62b699ed1d28e9c873cdb55e71600079
+$ time java-introcs Generate 1000000 2023 | java-introcs FindGene - 
+15512
+
+real	0m0.787s
+user	0m1.229s
+sys	0m0.481s
+$ time java-introcs Generate 2000000 2023 | java-introcs FindGene - 
+31063
+
+real	0m1.428s
+user	0m2.197s
+sys	0m0.817s
+$ time java-introcs Generate 4000000 2023 | java-introcs FindGene - 
+62172
+
+real	0m2.733s
+user	0m4.026s
+sys	0m1.589s
+$ time java-introcs Generate 8000000 2023 | java-introcs FindGene - 
+124635
+
+real	0m5.175s
+user	0m8.017s
+sys	0m2.386s
+$ time java-introcs Generate 16000000 2023 | java-introcs FindGene - 
+249339
+
+real	0m10.088s
+user	0m16.090s
+sys	0m4.031s
